@@ -1,1 +1,350 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Materialize - Compiled and minified CSS-->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css">
+    <!-- Font Awesome Icon - CSS-->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <!-- Custom Styles-->
+    <link rel="stylesheet" href="static/css/style.css">
+    <title>Abhishek Katara | Full Stack Developer</title>
+    <!-- Open Graph-->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Abhishek Katara | Full Stack Developer">
+    <meta property="og:description" content="I want to make things that make a difference.">
+    <meta property="og:url" content="abhishekkatara.com">
+    <meta property="og:site_name" content="Abhishek Katara | Full Stack Developer">
+    <meta property="article:publisher" content="abhishekkatara.com">
+    <meta property="og:image" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@katara_abhi">
+    <meta name="twitter:title" content="Abhishek Katara | Full Stack Developer">
+    <meta name="twitter:description" content="I want to make things that make a difference.">
+    <meta name="twitter:url" content="abhishekkatara.com">
+    <meta name="author" content="Abhishek Katara">
+    <meta name="description" content="I want to make things that make a difference.">
+    <link rel="apple-touch-icon" sizes="57x57" href="static/img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="static/img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="static/img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="static/img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="static/img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="static/img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="static/img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="static/img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="static/img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="static/img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="static/img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="static/img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="static/img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!--if lt IE 9script(src='//html5shim.googlecode.com/svn/trunk/html5.js')
+    -->
+    <meta name="robots" content="index, follow">
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-39096633-2', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <meta name="google-site-verification" content="-3F1R8ekDXe8XFfCi7eIVfXOSWqlp_pWNQX2dfgKD4Y">
+  </head>
+  <body>
+    <!-- Navigation Menu-->
+    <nav ng-class="hide-on-small-only">
+      <ul class="side-nav fixed section table-of-contents">
+        <li class="logo"><a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro" class="brand-logo teal-text">
+            <h1>Abhishek Katara<span class="brown-text light">Full Stack Developer</span></h1></a></li>
+        <li class="bold"><a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i class="mdi-social-person small"></i><span>About</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark indigo-text"><i class="mdi-av-web small"></i><span>Projects</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark purple-text"><i class="mdi-av-equalizer small"></i><span>Skills</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Awards section" href="#awards" class="waves-effect waves-dark red-text"><i class="mdi-action-grade small"></i><span>Awards</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark orange-text"><i class="mdi-social-school small"></i><span>Education</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark brown-text"><i class="mdi-content-mail small"></i><span>Contact</span></a></li>
+        <li class="bold"><a aria-label="Open Abhishek's resume in a new tab" href="link" target="_blank" class="waves-effect waves-dark grey-text text-darken-3"><i class="mdi-action-description small"></i><span>Resume</span></a></li>
+      </ul>
+    </nav>
+    <nav class="hide-on-large only trigger z-depth-1"><a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+      <div class="name-title"><a id="name" aria-label="Navigate to the beginning of the page" href="#main" class="teal-text">Abhishek Katara</a><span class="brown-text light">Full Stack Developer</span></div>
+    </nav>
+    <nav class="hide-on-large only">
+      <ul id="slide-out" class="side-nav">
+        <li class="bold"><a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i class="mdi-social-person small"></i><span>About</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark indigo-text"><i class="mdi-av-web small"></i><span>Projects</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark purple-text"><i class="mdi-av-equalizer small"></i><span>Skills</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Awards section" href="#awards" class="waves-effect waves-dark red-text"><i class="mdi-action-grade small"></i><span>Awards</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark orange-text"><i class="mdi-social-school small"></i><span>Education</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark brown-text"><i class="mdi-content-mail small"></i><span>Contact</span></a></li>
+        <li class="bold"><a aria-label="Open Abhishek's Resume in a new tab" href="link" target="_blank" class="waves-effect waves-dark grey-text text-darken-3"><i class="mdi-action-description small"></i><span>Resume</span></a></li>
+      </ul>
+    </nav>
+    <!-- Main Content-->
+    <main>
+      <section id="intro" class="section scrollspy full-height">
+        <div class="overlay"></div>
+        <div class="container">
+        </div>
+      </section>
+      <section id="about" class="section scrollspy">
+        <h3 class="page-title white-text teal">About</h3>
+        <div class="container flow-text">
+          <h2>Hi there!</h2>
+          <p>I’m Abhishek Katara currently pursuing Btech in CSE at Indian Institute of Information Technology, Vadodara, India. I like to code, read and travel a lot. I'm an active competitive programmer and trying my hand in open source.
+		  </p>
+          
+          <p><strong>Current Interest </strong>:&nbsp;<a aria-label="homepage" href="link">Competitive Programming</a>&nbsp;//&nbsp;<a aria-label="homepage" href="link">Machine Learning</a>&nbsp;//&nbsp;<a aria-label="homepage" href="link">Cloud Computing</a></p>
+        </div>
+      </section>
+
+      <section id="skills" class="section scrollspy">
+        <h3 class="page-title white-text teal">Skills</h3>
+        <div class="container">
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">HTML</h4>
+              <div class="row text-center">
+                <div class="col s4 m2"><img alt="" src="static/img/html5.png" class="responsive-img"><br>HTML5</div>
+                <div class="col s4 m2"><img alt="" src="static/img/react.png" class="responsive-img"><br>JSX</div>
+                <div class="col s4 m2"><img alt="" src="static/img/haml.png" class="responsive-img"><br>Haml</div>
+                <div class="col s4 m2"><img alt="" src="static/img/jade.png" class="responsive-img"><br>Jade</div>
+                <div class="col s4 m2"><img alt="" src="static/img/jekyll.png" class="responsive-img"><br>Jekyll</div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">CSS</h4>
+              <div class="row text-center">
+                <div class="col s4 m2"><img alt="" src="static/img/css3.png" class="responsive-img"><br>CSS3</div>
+                <div class="col s4 m2"><img alt="" src="static/img/sass.png" class="responsive-img">SASS</div>
+                <div class="col s4 m2"><img alt="" src="static/img/bootstrap.png" class="responsive-img">Bootstrap</div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">Javascript</h4>
+              <div class="row text-center">
+                <div class="col s4 m2"><img alt="" src="static/img/javascript.png" class="responsive-img">Javascript</div>
+                <div class="col s4 m2"><img alt="" src="static/img/jquery.png" class="responsive-img"><br>jQuery</div>
+                <div class="col s4 m2"><img alt="" src="static/img/nodejs.png" class="responsive-img"><br>Node</div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">Back-End</h4>
+              <div class="row text-center">
+              	<div class="col s4 m2"><img alt="" src="static/img/postgresql.png" class="responsive-img">PostgreSQL</div>
+                <div class="col s4 m2"><img alt="" src="static/img/mongodb.png" class="responsive-img">MongoDB</div>
+                <div class="col s4 m2"><img alt="" src="static/img/minitest.png" class="responsive-img"><br>Minitest</div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">Build Tools</h4>
+              <div class="row text-center">
+                <div class="col s4 m2"><img alt="" src="static/img/webpack.png" class="responsive-img">Webpack</div>
+                <div class="col s4 m2"><img alt="" src="static/img/gulp.png" class="responsive-img"><br>Gulp</div>
+                <div class="col s4 m2"><img alt="" src="static/img/grunt.png" class="responsive-img"><br>Grunt</div>
+                <div class="col s4 m2"><img alt="" src="static/img/bower.png" class="responsive-img"><br >Bower</div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">CMS</h4>
+              <div class="row text-center">
+                <div class="col s4 m2"><img alt="" src="static/img/wordpress.png" class="responsive-img">Wordpress</div>
+                <div class="col s4 m2"><img alt="" src="static/img/medium.png" class="responsive-img">   Medium</div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">Other</h4>
+              <div class="row text-center">
+                <div class="col s4 m2"><img alt="" src="static/img/github.png" class="responsive-img"> <br>Github </div>
+                <div class="col s4 m2"><img alt="" src="static/img/heroku.png" class="responsive-img">Herokuapp</div>
+                <div class="col s4 m2"><img alt="" src="static/img/pya.png" class="responsive-img">Pythonanywhere</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="awards" class="section scrollspy">
+        <h3 class="page-title white-text teal">Awards</h3>
+        <div class="container">
+          <div class="row">
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-content">
+                  <p><span class="card-title"><a href="link" target="_blank" class="teal-text hoverline">A</a></span></p>
+                  <p class="brown-text">Award | Date</p>
+                  <ul>
+                    <li>blah blah blah...</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-content">
+                  <p><span class="card-title"><a href="link" target="_blank" class="teal-text hoverline">B</a></span></p>
+                  <p class="brown-text">Award | Date</p>
+                  <ul>
+                    <li>blah blah blah...</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-content">
+                  <p><span class="card-title"><a href="link" target="_blank" class="teal-text hoverline">C</a></span></p>
+                  <p class="brown-text">Award | Date</p>
+                  <ul>
+                    <li>blah blah blah...</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-content">
+                  <p><span class="card-title"><a href="link" class="teal-text hoverline">D</a></span></p>
+                  <p class="brown-text">Award | Date</p>
+                  <ul>
+                    <li>blah blah blah...</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-content">
+                  <p><span class="card-title"><a href="link" target="_blank" class="teal-text hoverline">E</a></span></p>
+                  <p class="brown-text">Award | Date</p>
+                  <ul>
+                    <li>blah blah blah...</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-content">
+                  <p><span class="card-title"><a href="link" class="teal-text hoverline">F</a></span></p>
+                  <p class="brown-text">Award | Date</p>
+                  <ul>
+                    <li>blah blah blah...</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-content">
+                  <p><span class="card-title"><a href="link" class="teal-text hoverline">G</a></span></p>
+                  <p class="brown-text">Award | Date</p>
+                  <ul>
+                    <li>blah blah blah...</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="education" class="section scrollspy">
+        <h3 class="page-title white-text teal">Education</h3>
+        <div class="container">
+          <div class="row">
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-content">
+                  <p><span class="card-title"><a href="http://iiitvadodara.ac.in/" class="teal-text hoverline">Indian Institute of Information Technology, Vadodara</a></span></p>
+                  <p class="brown-text">Gujarat, India | 2015 - 2019</p>
+                  <ul>
+                    <li>B.Tech. in Computer Science</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="section scrollspy full-height">
+        <h3 class="page-title white-text teal">Contact</h3>
+        <div class="container">
+          <div class="row">
+          	<div class="col s12 m6">
+          		<p><a aria-label="Email Abhishek" href="mailto:katara.abhishek7@gmail.com" data-position="top" data-tooltip="Email Abhishek" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-envelope"></i><a alt="" href="mailto:katara.abhishek7@gmail.com" class="hoverline">katara.abhishek7@gmail.com</a></a></p>
+          
+         		 <p><a aria-label="View Abhishek on GitHub" href="http://github.com/AbhishekKatara" target="_blank" data-position="top" data-tooltip="View Abhishek on GitHub" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-github"></i><a alt="" href="http://github.com/AbhishekKatara" class="hoverline">github.com/AbhishekKatara</a></a></p>
+          
+         		 <p><a aria-label="View Abhishek on LinkedIn" href="http://linkedin.com/in/abhishekkatara" target="_blank" data-position="top" data-tooltip="View Abhishek on LinkedIn" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-linkedin"></i><a alt="" href="http://linkedin.com/in/abhishekkatara" class="hoverline">linkedin.com/in/abhishekkatara</a></a></p>
+
+         		 <p><a aria-label="View Abhishek on Twitter" href="https://twitter.com/katara_abhi" target="_blank" data-position="top" data-tooltip="View Abhishek on Twitter" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-twitter"></i><a alt="" href="https://twitter.com/katara_abhi" class="hoverline">twitter.com/katara_abhi</a></a></p>
+         	</div>   
+
+            <div class="col s12 m6">
+            	<p><a aria-label="View Abhishek on Facebook" href="https://www.facebook.com/abhishekkatara123" target="_blank" data-position="top" data-tooltip="View Abhishek on Facebook" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-facebook"></i><a alt="" href="https://www.facebook.com/abhishekkatara123" class="hoverline">facebook.com/abhishekkatara123</a></a></p>
+
+          		<p><a aria-label="View Abhishek on Codechef" href="http://codechef.com/users/abhi1210" target="_blank" data-position="top" data-tooltip="View Abhishek on Codechef" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-cc"></i><a alt="" href="http://codechef.com/users/abhi1210" class="hoverline">codechef.com/users/abhi1210</a></a></p>
+
+          
+          		<p><a aria-label="View Abhishek on Instagram" href="https://www.instagram.com/abhi_katara" target="_blank" data-position="top" data-tooltip="View Abhishek on Instagram" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-instagram"></i><a alt="" href="https://www.instagram.com/abhi_katara" class="hoverline">instagram.com/abhi_katara</a></a></p> 
+          
+         		 <p><a aria-label="View Abhishek on Telegram" href="http://telegram.me/abhishekkatara" target="_blank" data-position="top" data-tooltip="View Abhishek on Telegram" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-paper-plane"></i><a alt="" href="http://telegram.me/abhishekkatara" class="hoverline">telegram.me/abhishekkatara</a></a></p> 
+         	</div>
+        </div>
+        </div>
+      </section>
+    </main>
+    <!-- jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Materialize - Compiled and minified JavaScript-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+    <script>
+      // Materialize - Initializers
+      $(document).ready(function(){
+        $('.scrollspy').scrollSpy();
+        // Initialize collapse button
+        $(".button-collapse").sideNav({
+            menuWidth: 190, // Default is 240
+            edge: 'left', // Choose the horizontal origin
+            closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+          }
+        );
+      });
+    </script>
+    <!-- nothing to see here...--><small>
+           ___                       ___           ___                    ___                                     ___
+          /\  \                     /\__\         /\  \                  /\__\                      ___          /\__\
+          \:\  \       ___         /:/ _/_        \:\  \                /:/ _/_       ___          /\  \        /:/ _/_
+           \:\  \     /\__\       /:/ /\  \        \:\  \              /:/ /\__\     /\__\         \:\  \      /:/ /\__\
+       ___ /::\  \   /:/__/      /:/ /::\  \   ___ /::\  \            /:/ /:/  /    /:/__/          \:\  \    /:/ /:/ _/_
+      /\  /:/\:\__\ /::\  \     /:/__\/\:\__\ /\  /:/\:\__\          /:/_/:/  /    /::\  \      ___  \:\__\  /:/_/:/ /\__\
+      \:\/:/  \/__/ \/\:\  \__  \:\  \ /:/  / \:\/:/  \/__/          \:\/:/  /     \/\:\  \__  /\  \ |:|  |  \:\/:/ /:/  /
+       \::/__/       ~~\:\/\__\  \:\  /:/  /   \::/__/                \::/__/       ~~\:\/\__\ \:\  \|:|  |   \::/_/:/  /
+        \:\  \          \::/  /   \:\/:/  /     \:\  \                 \:\  \          \::/  /  \:\__|:|__|    \:\/:/  /
+         \:\__\         /:/  /     \::/  /       \:\__\                 \:\__\         /:/  /    \::::/__/      \::/  /
+          \/__/         \/__/       \/__/         \/__/                  \/__/         \/__/      ~~~~           \/__/</small>
+  </body>
+</html>
